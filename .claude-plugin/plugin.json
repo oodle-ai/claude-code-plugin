@@ -1,0 +1,34 @@
+{
+  "name": "oodle",
+  "displayName": "Oodle",
+  "description": "Oodle observability for Claude Code: connects the Oodle MCP server for your region (OAuth sign-in) and installs the Oodle agent skills (monitors, dashboards, alerting, metrics, logs, traces, onboarding, triage) and the Oodle discovery skill (tech stack, observability scale and cost report).",
+  "version": "0.1.0",
+  "author": {
+    "name": "Oodle",
+    "email": "support@oodle.ai",
+    "url": "https://oodle.ai"
+  },
+  "homepage": "https://oodle.ai",
+  "repository": "https://github.com/oodle-ai/claude-code-plugin",
+  "license": "MIT",
+  "keywords": [
+    "oodle",
+    "observability",
+    "monitoring",
+    "promql",
+    "logs",
+    "traces",
+    "alerts",
+    "kubernetes",
+    "mcp"
+  ],
+  "icon": "./.claude-plugin/icon.png",
+  "documentationUrl": "https://docs.oodle.ai/integrations/mcp/claude",
+  "supportUrl": "https://github.com/oodle-ai/claude-code-plugin/issues",
+  "privacyPolicyUrl": "https://www.oodle.ai/privacy",
+  "termsOfServiceUrl": "https://www.oodle.ai/terms",
+  "dependencies": [
+    "oodle-agent-skills@oodle",
+    "oodle-discovery-skills@oodle"
+  ]
+}

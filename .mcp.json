@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "oodle-us1": {
+      "type": "http",
+      "url": "https://prod-02-us-west-2.api.oodle.ai/mcp/v1",
+      "oauth": {
+        "clientId": "9aSE9FiizGd2cvES9fkRXVeoH2NbMlkI",
+        "callbackPort": 9400
+      }
+    },
+    "oodle-eu1": {
+      "type": "http",
+      "url": "https://eu1.api.oodle.ai/mcp/v1",
+      "oauth": {
+        "clientId": "60pHxRt5mb4M5J7pcFBN5TEWX25jthu7",
+        "callbackPort": 9400
+      }
+    },
+    "oodle-ap1": {
+      "type": "http",
+      "url": "https://prod-01-ap-south1.api.oodle.ai/mcp/v1",
+      "oauth": {
+        "clientId": "BtkEridc4BuBIhm8E3IKK0XEDYh82s43",
+        "callbackPort": 9400
+      }
+    }
+  }
+}

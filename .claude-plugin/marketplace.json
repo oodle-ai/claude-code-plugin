@@ -1,0 +1,37 @@
+{
+  "name": "oodle",
+  "owner": {
+    "name": "Oodle",
+    "email": "support@oodle.ai",
+    "url": "https://oodle.ai"
+  },
+  "metadata": {
+    "description": "Oodle observability plugins for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "oodle",
+      "source": "./",
+      "description": "Oodle observability for Claude Code: the Oodle MCP server for your region (OAuth sign-in) plus the Oodle agent and discovery skills.",
+      "category": "monitoring"
+    },
+    {
+      "name": "oodle-agent-skills",
+      "source": {
+        "source": "github",
+        "repo": "oodle-ai/agent-skills"
+      },
+      "description": "Oodle agent skills from github.com/oodle-ai/agent-skills: monitors, dashboards, alerting, metrics, logs, traces, drop rules, synthetic checks, onboarding, and triage.",
+      "category": "monitoring"
+    },
+    {
+      "name": "oodle-discovery-skills",
+      "source": {
+        "source": "github",
+        "repo": "oodle-ai/discovery-agent-skills"
+      },
+      "description": "Oodle discovery skill from github.com/oodle-ai/discovery-agent-skills: read-only discovery of your tech stack, observability stack, telemetry scale and observability cost, with a verifiable HTML report.",
+      "category": "monitoring"
+    }
+  ]
+}
