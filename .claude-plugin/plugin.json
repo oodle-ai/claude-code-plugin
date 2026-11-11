@@ -2,7 +2,7 @@
   "name": "oodle",
   "displayName": "Oodle",
   "description": "Oodle observability for Claude Code: connects the Oodle MCP server for your region (OAuth sign-in) and installs the Oodle agent skills (monitors, dashboards, alerting, metrics, logs, traces, onboarding, triage) and the Oodle discovery skill (tech stack, observability scale and cost report).",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Oodle",
     "email": "support@oodle.ai",
